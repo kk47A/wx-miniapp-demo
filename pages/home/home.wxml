@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<view class="loginarea">
+  <view class="userlogin">  
+  <label class="label">username：</label><input type="text" class="inputext"></input>
+  </view>
+  <view class="userlogin"> 
+  <label class="label">password：</label><input type="password" class="inputext"></input>
+  </view>  
+</view>

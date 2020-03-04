@@ -1,0 +1,25 @@
+{
+  "usingComponents": {},
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "/home/home",
+        "text": "新闻",
+        "iconPath": "iconPath",
+        "selectedIconPath": "selectedIconPath"
+      },
+      {
+        "pagePath": "/index/index",
+        "text": "电商",
+        "iconPath": "iconPath",
+        "selectedIconPath": "selectedIconPath"
+      },
+      {
+        "pagePath": "/logs/logs",
+        "text": "关于",
+        "iconPath": "iconPath",
+        "selectedIconPath": "selectedIconPath"
+      }
+    ]
+  }
+}

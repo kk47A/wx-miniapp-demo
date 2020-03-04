@@ -1,0 +1,28 @@
+/*home.wxss */
+page{  
+  height: 100%;
+}
+.loginarea {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  background:yellowgreen;
+} 
+.userlogin{
+  height: 30px;
+  padding: 5px 5px 5px 5px;
+}
+.label{
+  font-size: 18px;
+  float: left;
+  padding: 0 5px 0 5px;
+}
+.inputext{
+  width: 120px;
+  border: solid 1px silver;
+  border-radius: 6%;
+}
