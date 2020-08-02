@@ -1,16 +1,38 @@
 <!--index.wxml-->
+
 <view class="container">
+
+  <view class="label">
+    <label>5G 小助手</label>
+  </view>
+  
+  <view class="search">
+    <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+  </view>
+  <!--
+  <view class="icon">
+    <mp-icon type="outline" icon="add" color="black" size="{{25}}"></mp-icon>
+    <mp-icon icon="like" color="black" size="{{25}}"></mp-icon>
+  </view>
+  -->
+
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <!-- <text class="userinfo-nickname">{{userInfo.nickName}}</text> -->
+      <!--
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      -->
     </block>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+ 
+
+  <!--
   <view>
     <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"disabled="{{disabled}}" bindtap="gohome"> 点击进入 </button>
   </view>
+  -->
 </view>

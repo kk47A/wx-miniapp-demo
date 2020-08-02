@@ -37,3 +37,8 @@ App({
     userInfo: null
   }
 })
+
+/*    
+//"iconPath": "iconPath",
+//"selectedIconPath": "selectedIconPath"
+*/

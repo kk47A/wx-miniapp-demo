@@ -1,7 +1,6 @@
 {
   "usingComponents": {
     "mp-searchbar": "../../components/searchbar/searchbar",
-    "mp-cell": "../../components/cell/cell",
-    "mp-icon": "../../components/icon/icon"
+    "mp-cell": "../../components/cell/cell"
   }
 }

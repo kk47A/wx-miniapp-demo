@@ -42,6 +42,14 @@ Page({
         }
       })
     }
+    this.setData({search:this.search.bind(this)})
+  },
+  search:function(value){
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+          resolve([{text: '搜索结果', value: 1}, {text: '搜索结果2', value: 2}])
+      }, 200)
+  })
   },
   getUserInfo: function(e) {
     //console.log(e)
@@ -51,9 +59,10 @@ Page({
       hasUserInfo: true
     })
   },
+  //页面跳转不能跳转到在tabBar中的页面
   gohome:function(){
     wx.navigateTo({
-      url:'../home/home'
+      url:'../more/more'
     });
   },
 })
