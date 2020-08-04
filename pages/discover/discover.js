@@ -4,8 +4,7 @@ Page({
     imgUrls: [
       '/imgs/img1.png',
       '/imgs/img2.png',
-      '/imgs/img3.png',
-      '/imgs/img4.png'
+      '/imgs/img3.png'
     ],
     indicatorDots: true,
     vertical: false,
