@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/home/home",
+    "pages/category/category",
     "pages/discover/discover",
     "pages/more/more",
     "pages/search/search",
@@ -23,10 +23,10 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "pages/category/category",
         "iconPath": "assets/icons/ic_qz_1.png",
         "selectedIconPath": "assets/icons/ic_qz_2.png",
-        "text": "圈子"
+        "text": "分类"
       },
       {
         "pagePath": "pages/discover/discover",
